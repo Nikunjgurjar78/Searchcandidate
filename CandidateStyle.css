@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.searchlist-container{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #2a565c, #386066, #466b71, #53757b, #618086, #627d82, #627b7f, #63787b, #576869, #4b5859, #3f4848, #343939);
+
+}
+.container {
+    max-width: 601px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+  }
+  
+  .search-form {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .search-form label{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+  }
+  .search-form input{
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    transition: ease-in-out .3s;
+
+  }
+  
+  button:hover {
+    background-color: #2fe4ed;
+    transform: scale(110%);
+  }
+  
+  #candidateList {
+    list-style-type: none;
+  }
+  
+  .candidate {
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
